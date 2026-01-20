@@ -1,3 +1,11 @@
+import Hero from '@/components/Hero';
+import LatestCollection from '@/components/LatestCollection';
+
 export default function Home() {
-  return <div>Home</div>;
+  return (
+    <div>
+      <Hero />
+      <LatestCollection />
+    </div>
+  );
 }
